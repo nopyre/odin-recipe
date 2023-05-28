@@ -1,17 +1,35 @@
+body {
+    width: 800px;
+    background-color: rgb(237, 234, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 16px auto;
+}
 h1 {
+    font-size: 48px;
+    padding: 15px;
+    background-color:rgb(88, 88, 148);
     text-align: center;
-    color: purple;
-    font-family: Impact,Helvetica,sans-serif;
+    margin: 16px;
+    text-transform: uppercase;
 }
-#list {
+li {
+    display: inline;
+    margin: 10px;
+}
+ul {
+    margin: 16px;
+    padding: 40px;
     text-align: center;
-    color: wheat;
-    font-weight: bolder;
-    font-size: 20px;
 }
-a:visited {
-    color: wheat;
+a {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+    background-color: rgb(88, 88, 148);
+    text-decoration: none;
+    padding: 40px;
+    margin: 10px auto;
 }
-* {
-    border: 5px solid black;
+a:hover {
+    background-color: rgb(98, 98, 139);
 }
